@@ -33,6 +33,8 @@ O script realizará a requisição à API, filtrará as transações das última
 
 Se desejar monitorar um endereço Ethereum diferente, altere o URL da API na linha:
 
+```
 const response = await axios.get('https://eth.blockscout.com/api/v2/addresses 0x25D43E7c258bA2c971A146e0a753Cd5273df9559/transactions');
+```
 
 Substitua 0x25D43E7c258bA2c971A146e0a753Cd5273df9559 pelo endereço Ethereum desejado, esse enderço é apenas um endereço publico fornecido no site do blockscout.
